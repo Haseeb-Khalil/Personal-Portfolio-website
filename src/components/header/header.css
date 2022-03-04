@@ -62,6 +62,9 @@ header {
   font-weight: 300;
   font-size: 0.9rem;
 }
+.arrow__down {
+  margin-top: 6px;
+}
 /* =========================MEDIA QUERY FOR TABLETS========================== */
 
 @media screen and (max-width: 1024px) {

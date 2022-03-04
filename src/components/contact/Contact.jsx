@@ -4,7 +4,25 @@ import { MdOutlineEmail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
 
+import { useRef } from "react";
+import emailjs from "emailjs-com";
+
 const Contact = () => {
+  // For sending form details to the address
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(
+      "service_5k8iyao",
+      "template_g8tw4iq",
+      form.current,
+      "p3aYLn_01zAlx_4xf"
+    );
+    e.target.reset();
+  };
+
   return (
     <section id="contact">
       <h5>Get In Touch</h5>
@@ -16,8 +34,8 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>haseeb3927@gmail.com</h5>
-            <a href="mailto:haseeb3927@gmail.com" target="_blank">
+            <h5>haseeb.khalil3927@gmail.com</h5>
+            <a href="mailto:haseeb.khalil3927@gmail.com" target="_blank">
               Send Email
             </a>
           </article>
@@ -41,8 +59,9 @@ const Contact = () => {
             </a>
           </article>
         </div>
+
         {/* Contact Form */}
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input
             type="text"
             name="name"
