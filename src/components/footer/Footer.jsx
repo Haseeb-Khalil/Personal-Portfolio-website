@@ -35,13 +35,22 @@ const Footer = () => {
 
       {/* Social Profiles */}
       <div className="footer__socials">
-        <a href="https://facebook.com">
+        <a
+          href="&#x68;&#x74;&#x74;&#x70;&#x73;&#x3a;&#x2f;&#x2f;&#x77;&#x77;&#x77;&#x2e;&#x66;&#x61;&#x63;&#x65;&#x62;&#x6f;&#x6f;&#x6b;&#x2e;&#x63;&#x6f;&#x6d;&#x2f;&#x68;&#x61;&#x73;&#x65;&#x65;&#x62;&#x2e;&#x6b;&#x68;&#x61;&#x6c;&#x69;&#x6c;&#x2e;&#x37;&#x37;"
+          target="_blank"
+        >
           <FaFacebookF />
         </a>
-        <a href="https://instagram.com">
+        <a
+          href="&#x68;&#x74;&#x74;&#x70;&#x73;&#x3a;&#x2f;&#x2f;&#x77;&#x77;&#x77;&#x2e;&#x69;&#x6e;&#x73;&#x74;&#x61;&#x67;&#x72;&#x61;&#x6d;&#x2e;&#x63;&#x6f;&#x6d;&#x2f;&#x68;&#x61;&#x73;&#x33;&#x33;&#x62;&#x5f;&#x6d;&#x61;&#x6c;&#x69;&#x6b;&#x2f;"
+          target="_blank"
+        >
           <BsInstagram />
         </a>
-        <a href="https://twitter.com">
+        <a
+          href="&#x68;&#x74;&#x74;&#x70;&#x73;&#x3a;&#x2f;&#x2f;&#x74;&#x77;&#x69;&#x74;&#x74;&#x65;&#x72;&#x2e;&#x63;&#x6f;&#x6d;&#x2f;&#x48;&#x61;&#x73;&#x65;&#x65;&#x62;&#x32;&#x34;&#x39;&#x31;&#x39;&#x39;&#x34;&#x33;"
+          target="_blank"
+        >
           <FiTwitter />
         </a>
       </div>
