@@ -38,6 +38,7 @@ const Contact = () => {
             <a
               href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x68;&#x61;&#x73;&#x65;&#x65;&#x62;&#x2e;&#x6b;&#x68;&#x61;&#x6c;&#x69;&#x6c;&#x33;&#x39;&#x32;&#x37;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;"
               target="_blank"
+              rel="noreferrer"
             >
               Send Email
             </a>
@@ -49,6 +50,7 @@ const Contact = () => {
             <a
               href="&#x68;&#x74;&#x74;&#x70;&#x73;&#x3a;&#x2f;&#x2f;&#x6d;&#x2e;&#x6d;&#x65;&#x2f;&#x68;&#x61;&#x73;&#x65;&#x65;&#x62;&#x2e;&#x6b;&#x68;&#x61;&#x6c;&#x69;&#x6c;&#x2e;&#x37;&#x37;"
               target="_blank"
+              rel="noreferrer"
             >
               Send Message
             </a>
@@ -60,6 +62,7 @@ const Contact = () => {
             <a
               href="&#x68;&#x74;&#x74;&#x70;&#x73;&#x3a;&#x2f;&#x2f;&#x61;&#x70;&#x69;&#x2e;&#x77;&#x68;&#x61;&#x74;&#x73;&#x61;&#x70;&#x70;&#x2e;&#x63;&#x6f;&#x6d;&#x2f;&#x73;&#x65;&#x6e;&#x64;&#x3f;&#x70;&#x68;&#x6f;&#x6e;&#x65;&#x3d;&#x2b;&#x34;&#x34;&#x37;&#x34;&#x36;&#x33;&#x36;&#x34;&#x36;&#x32;&#x38;&#x32;"
               target="_blank"
+              rel="noreferrer"
             >
               Send Message
             </a>
