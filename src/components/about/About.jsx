@@ -24,7 +24,7 @@ const About = () => {
               <h5>Experience</h5>
 
               {/* ADD EXPERIENCE INFO */}
-              <small>__Years Working</small>
+              <small>One year with CodeYourFuture</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
@@ -42,10 +42,11 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus
-            totam qui in animi cum placeat possimus dignissimos, quidem tempore
-            sapiente sint dolorem a ad accusantium, vel id molestias fuga
-            explicabo.
+            As an empathetic, hardworking employee in different environments, I
+            have developed excellent communication, time management, and
+            team-working skills. Recently graduated from Code Your Future as a
+            Full Stack Web Developer, I am now looking for a junior web
+            development role where I can continue to strengthen my skills.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
