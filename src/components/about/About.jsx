@@ -24,7 +24,7 @@ const About = () => {
               <h5>Experience</h5>
 
               {/* ADD EXPERIENCE INFO */}
-              <small>One year with CodeYourFuture</small>
+              <small>Three years at Capgemini</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
@@ -42,11 +42,16 @@ const About = () => {
             </article>
           </div>
           <p>
-            As an empathetic, hardworking employee in different environments, I
-            have developed excellent communication, time management, and
-            team-working skills. Recently graduated from Code Your Future as a
-            Full Stack Web Developer, I am now looking for a junior web
-            development role where I can continue to strengthen my skills.
+            A driven and empathetic Software Engineer with a demonstrated
+            ability to adapt and excel in dynamic environments. My strong
+            communication, time management, and teamwork foundation empower me
+            to deliver high-quality results in complex and challenging projects
+            consistently. Fuelled by a passion for continuous learning, I
+            actively engage in personal projects utilising Java (Spring Boot)
+            and JavaScript (React) to enhance my skills further. This dedication
+            to growth positions me to make impactful contributions to the
+            ever-evolving technology landscape, delivering scalable and
+            meaningful solutions that drive success.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

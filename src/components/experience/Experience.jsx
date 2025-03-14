@@ -78,22 +78,29 @@ const Experience = () => {
             <article className="experience__details">
               <GiCheckMark className="experience__details-icon" />
               <div>
-                <h4>Socket-io</h4>
-                <small className="text-light">Beginner</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <GiCheckMark className="experience__details-icon" />
-              <div>
-                <h4>Heroku</h4>
+                <h4>AWS</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
               <GiCheckMark className="experience__details-icon" />
               <div>
-                <h4>Backend</h4>
-                <small className="text-light">Experienced</small>
+                <h4>Spring Boot</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <GiCheckMark className="experience__details-icon" />
+              <div>
+                <h4>Java</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <GiCheckMark className="experience__details-icon" />
+              <div>
+                <h4>Microservices</h4>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
           </div>
